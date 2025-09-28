@@ -974,387 +974,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "74xx:74LS174"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LS174"
-				(at -7.62 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS174"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Hex D-type Flip-Flop, reset"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL REG REG6 DFF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP?16*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LS174_1_0"
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 5.08)
-					(name "D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "Cp"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -12.7 0)
-					(length 5.08)
-					(name "~{Mr}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 17.78 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -20.32 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 10.16 180)
-					(length 5.08)
-					(name "Q0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "Q1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "Q2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "Q3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "Q4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "Q5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS174_1_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:LMC6482"
 			(pin_names
 				(offset 0.127)
@@ -1887,374 +1506,58 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
-		(start 110.49 27.94)
-		(end 180.34 71.12)
+		(start 16.51 144.78)
+		(end 63.5 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37ec3fe2-adfa-4cd9-874a-8ed59452a74d)
+	)
+	(rectangle
+		(start 16.51 170.18)
+		(end 63.5 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 969cb9ca-615d-4c29-a36e-888b0bf7a9ad)
+	)
+	(rectangle
+		(start 64.77 170.18)
+		(end 111.76 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e18c58fe-f488-4411-8348-e7fd9a738fa7)
+	)
+	(rectangle
+		(start 64.77 144.78)
+		(end 111.76 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e47cce7f-a3cc-426b-a0f5-b2b5efa12846)
+	)
+	(rectangle
+		(start 16.51 104.14)
+		(end 81.28 143.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -2264,70 +1567,68 @@
 		)
 		(uuid fb67f8c0-2c04-4f97-8291-05b6e862d7ec)
 	)
-	(junction
-		(at 50.8 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "052e45a5-0ebb-436f-8cd7-74d883ae51aa")
+	(text "U1 - LM393 Dual Differential Comparator"
+		(exclude_from_sim no)
+		(at 88.138 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20888738-c03a-4e0b-99d4-99a647475db3")
 	)
-	(junction
-		(at 49.53 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f254716-39e8-4878-b259-fa1676b542e3")
+	(text "U3 - LM3C6482 CMOS rail to rail opamp"
+		(exclude_from_sim no)
+		(at 40.132 192.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6105764c-3dd3-4dd4-958a-754350b8d824")
 	)
-	(wire
-		(pts
-			(xy 49.53 149.86) (xy 49.53 156.21)
+	(text "U5 - LM3C6482 CMOS rail to rail opamp"
+		(exclude_from_sim no)
+		(at 88.392 192.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0999197f-04d7-4ffa-80a0-4698d2015848")
+		(uuid "8cb12927-6422-40e3-92ee-5a1bc65a767d")
 	)
-	(wire
-		(pts
-			(xy 49.53 156.21) (xy 49.53 162.56)
+	(text "U9 - HC00 Quad input nand gate"
+		(exclude_from_sim no)
+		(at 33.528 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e264c5-a323-4916-80cb-4e5e96718551")
+		(uuid "8e56c672-16c2-435f-889e-fc8b161637c0")
 	)
-	(wire
-		(pts
-			(xy 50.8 106.68) (xy 50.8 111.76)
+	(text "U4 - LM393 Dual Differential Comparator"
+		(exclude_from_sim no)
+		(at 40.132 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a61d8966-4b21-4970-8f81-c23d84b30b55")
-	)
-	(wire
-		(pts
-			(xy 50.8 101.6) (xy 50.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f501ceeb-94db-4f5d-9493-ef3b7f8e3160")
+		(uuid "f0cc8e19-37f3-4016-b8cd-0284f37e9bdd")
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LMC6482")
-		(at 91.44 74.93 0)
-		(unit 1)
+		(at 44.45 182.88 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e771cf0-7871-4e7f-875d-f365d024a508")
-		(property "Reference" "U5"
-			(at 91.44 64.77 0)
+		(uuid "0384fdac-348e-4de0-ba0d-9e63757ff53d")
+		(property "Reference" "U3"
+			(at 44.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +1636,7 @@
 			)
 		)
 		(property "Value" "LMC6482"
-			(at 91.44 67.31 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +1644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 74.93 0)
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +1653,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
-			(at 91.44 74.93 0)
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +1662,7 @@
 			)
 		)
 		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
-			(at 91.44 74.93 0)
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,29 +1670,498 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "57914518-893e-4b50-9578-a51e820b6f94")
-		)
-		(pin "1"
-			(uuid "6479ddcc-457d-476a-b7d6-88d10d03e0b1")
-		)
-		(pin "5"
-			(uuid "5c17337d-beb4-461f-93f3-2870122648af")
+		(pin "4"
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
 		)
 		(pin "6"
-			(uuid "1da73c80-90cd-49a3-891a-ebcbc59d62f2")
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
 		)
-		(pin "7"
-			(uuid "516868cd-bf4f-44c5-a1ee-bcb54f04d591")
+		(pin "5"
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
 		)
-		(pin "8"
-			(uuid "43316b6e-6ca2-4bfe-a94d-cede18895058")
+		(pin "1"
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+		)
+		(pin "2"
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
 		)
 		(pin "3"
-			(uuid "ed0abbc1-e737-43c7-88d9-3c29c781a5f7")
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+		)
+		(pin "8"
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+		)
+		(pin "7"
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 45.72 156.21 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1df58a0c-df83-4978-8252-465af2b92524")
+		(property "Reference" "U4"
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 38.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+		)
+		(pin "8"
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
 		)
 		(pin "4"
-			(uuid "d74da5cd-29a6-4c25-890d-9548a279d432")
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+		)
+		(pin "6"
+			(uuid "45d80215-c653-44c1-a897-539203621f83")
+		)
+		(pin "5"
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+		)
+		(pin "1"
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+		)
+		(pin "2"
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+		)
+		(pin "3"
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC00")
+		(at 31.75 130.81 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20941614-0301-4a69-b8e9-1e233085e1d5")
+		(property "Reference" "U9"
+			(at 31.7417 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 31.7417 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 31.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 31.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a500")
+		)
+		(pin "13"
+			(uuid "6a202f18-2b52-4303-9951-2a81d9979675")
+		)
+		(pin "2"
+			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e6")
+		)
+		(pin "3"
+			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b0")
+		)
+		(pin "6"
+			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9343")
+		)
+		(pin "5"
+			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c6d")
+		)
+		(pin "12"
+			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb947f")
+		)
+		(pin "7"
+			(uuid "65000b20-0418-4715-bd13-9418ee6909d5")
+		)
+		(pin "14"
+			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5620")
+		)
+		(pin "11"
+			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d0")
+		)
+		(pin "10"
+			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d7828")
+		)
+		(pin "9"
+			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe3")
+		)
+		(pin "1"
+			(uuid "227a0839-153f-4f96-8e08-003c3162f93c")
+		)
+		(pin "4"
+			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a6")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMC6482")
+		(at 107.95 181.61 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f686936-5946-4a27-b5ba-80c5f51052ab")
+		(property "Reference" "U5"
+			(at 107.442 186.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMC6482"
+			(at 109.474 186.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
+			(at 107.95 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
+			(at 107.95 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+		)
+		(pin "6"
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+		)
+		(pin "5"
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+		)
+		(pin "1"
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+		)
+		(pin "2"
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+		)
+		(pin "3"
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+		)
+		(pin "8"
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+		)
+		(pin "7"
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC00")
+		(at 66.04 120.65 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50d716c2-aae2-43d9-80a7-19912dbd8caa")
+		(property "Reference" "U9"
+			(at 72.39 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 72.39 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a501")
+		)
+		(pin "13"
+			(uuid "6a202f18-2b52-4303-9951-2a81d9979676")
+		)
+		(pin "2"
+			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e7")
+		)
+		(pin "3"
+			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b1")
+		)
+		(pin "6"
+			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9344")
+		)
+		(pin "5"
+			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c6e")
+		)
+		(pin "12"
+			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb9480")
+		)
+		(pin "7"
+			(uuid "65000b20-0418-4715-bd13-9418ee6909d6")
+		)
+		(pin "14"
+			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5621")
+		)
+		(pin "11"
+			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d1")
+		)
+		(pin "10"
+			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d7829")
+		)
+		(pin "9"
+			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe4")
+		)
+		(pin "1"
+			(uuid "227a0839-153f-4f96-8e08-003c3162f93d")
+		)
+		(pin "4"
+			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a7")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U9")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMC6482")
+		(at 73.66 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a563c0d-d744-4a9f-81a5-d0538606b902")
+		(property "Reference" "U5"
+			(at 73.66 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMC6482"
+			(at 73.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+		)
+		(pin "6"
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+		)
+		(pin "5"
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+		)
+		(pin "1"
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+		)
+		(pin "2"
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+		)
+		(pin "3"
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+		)
+		(pin "8"
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+		)
+		(pin "7"
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
 		)
 		(instances
 			(project ""
@@ -2404,525 +2174,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 125.73 58.42 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20941614-0301-4a69-b8e9-1e233085e1d5")
-		(property "Reference" "U2"
-			(at 125.7217 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC00"
-			(at 125.7217 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 125.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "quad 2-input NAND gate"
-			(at 125.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a500")
-		)
-		(pin "13"
-			(uuid "6a202f18-2b52-4303-9951-2a81d9979675")
-		)
-		(pin "2"
-			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e6")
-		)
-		(pin "3"
-			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b0")
-		)
-		(pin "6"
-			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9343")
-		)
-		(pin "5"
-			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c6d")
-		)
-		(pin "12"
-			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb947f")
-		)
-		(pin "7"
-			(uuid "65000b20-0418-4715-bd13-9418ee6909d5")
-		)
-		(pin "14"
-			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5620")
-		)
-		(pin "11"
-			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d0")
-		)
-		(pin "10"
-			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d7828")
-		)
-		(pin "9"
-			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe3")
-		)
-		(pin "1"
-			(uuid "227a0839-153f-4f96-8e08-003c3162f93c")
-		)
-		(pin "4"
-			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a6")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LMC6482")
-		(at 91.44 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c5afb80-35f0-4c3d-a36b-e56ac0c60a27")
-		(property "Reference" "U3"
-			(at 91.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMC6482"
-			(at 91.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57914518-893e-4b50-9578-a51e820b6f94")
-		)
-		(pin "1"
-			(uuid "6479ddcc-457d-476a-b7d6-88d10d03e0b1")
-		)
-		(pin "5"
-			(uuid "5c17337d-beb4-461f-93f3-2870122648af")
-		)
-		(pin "6"
-			(uuid "1da73c80-90cd-49a3-891a-ebcbc59d62f2")
-		)
-		(pin "7"
-			(uuid "516868cd-bf4f-44c5-a1ee-bcb54f04d591")
-		)
-		(pin "8"
-			(uuid "43316b6e-6ca2-4bfe-a94d-cede18895058")
-		)
-		(pin "3"
-			(uuid "ed0abbc1-e737-43c7-88d9-3c29c781a5f7")
-		)
-		(pin "4"
-			(uuid "d74da5cd-29a6-4c25-890d-9548a279d432")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "327c0beb-3eea-4498-9601-08c5f729210e")
-		(property "Reference" "R1"
-			(at 53.34 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 53.34 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.022 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b48461de-7189-4311-a926-d65db2a9e229")
-		)
-		(pin "1"
-			(uuid "328cdec4-65ac-4f53-ae6d-869f35c44076")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a438067-95b3-49de-8c52-5f29107776a0")
-		(property "Reference" "#PWR02"
-			(at 49.53 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e5bef7d-86c7-4629-824e-b478e7576ec6")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM393")
-		(at 41.91 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cbbd385-7194-4342-894c-433583bd90e1")
-		(property "Reference" "U4"
-			(at 41.91 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 41.91 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 41.91 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 41.91 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "69415cce-f9c3-4635-89fc-19f53e57240d")
-		)
-		(pin "2"
-			(uuid "85dcd1bc-e2b5-4cbe-8703-19ad45c05ab8")
-		)
-		(pin "5"
-			(uuid "0037e3db-e956-4ea3-9fc6-c33a0ed2ba65")
-		)
-		(pin "6"
-			(uuid "d57dee8d-bfab-4d42-b860-5558317e718f")
-		)
-		(pin "3"
-			(uuid "150ce7ae-3b1b-4f85-963e-ef59b4c2f8fa")
-		)
-		(pin "7"
-			(uuid "bae9e4b6-ef92-4601-9950-c48b002e6cef")
-		)
-		(pin "1"
-			(uuid "f8c99549-5799-4726-a2bf-177d6c87f041")
-		)
-		(pin "8"
-			(uuid "b4fd5ad8-a267-4dde-bf5a-25697b6b8461")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC00")
-		(at 160.02 48.26 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50d716c2-aae2-43d9-80a7-19912dbd8caa")
-		(property "Reference" "U2"
-			(at 166.37 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC00"
-			(at 166.37 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 160.02 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "quad 2-input NAND gate"
-			(at 160.02 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a500")
-		)
-		(pin "13"
-			(uuid "6a202f18-2b52-4303-9951-2a81d9979675")
-		)
-		(pin "2"
-			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e6")
-		)
-		(pin "3"
-			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b0")
-		)
-		(pin "6"
-			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9343")
-		)
-		(pin "5"
-			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c6d")
-		)
-		(pin "12"
-			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb947f")
-		)
-		(pin "7"
-			(uuid "65000b20-0418-4715-bd13-9418ee6909d5")
-		)
-		(pin "14"
-			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5620")
-		)
-		(pin "11"
-			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d0")
-		)
-		(pin "10"
-			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d7828")
-		)
-		(pin "9"
-			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe3")
-		)
-		(pin "1"
-			(uuid "227a0839-153f-4f96-8e08-003c3162f93c")
-		)
-		(pin "4"
-			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a6")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "U2")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC00")
-		(at 143.51 58.42 0)
+		(at 49.53 130.81 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2930,8 +2182,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604196e8-037f-479d-9b14-3761fa8e3479")
-		(property "Reference" "U2"
-			(at 143.5017 49.53 0)
+		(property "Reference" "U9"
+			(at 49.5217 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +2191,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 143.5017 52.07 0)
+			(at 49.5217 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +2199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 58.42 0)
+			(at 49.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +2208,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 143.51 58.42 0)
+			(at 49.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +2217,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 143.51 58.42 0)
+			(at 49.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,560 +2226,68 @@
 			)
 		)
 		(pin "8"
-			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a500")
+			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a502")
 		)
 		(pin "13"
-			(uuid "6a202f18-2b52-4303-9951-2a81d9979675")
+			(uuid "6a202f18-2b52-4303-9951-2a81d9979677")
 		)
 		(pin "2"
-			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e6")
+			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e8")
 		)
 		(pin "3"
-			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b0")
+			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b2")
 		)
 		(pin "6"
-			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9343")
+			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9345")
 		)
 		(pin "5"
-			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c6d")
+			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c6f")
 		)
 		(pin "12"
-			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb947f")
+			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb9481")
 		)
 		(pin "7"
-			(uuid "65000b20-0418-4715-bd13-9418ee6909d5")
+			(uuid "65000b20-0418-4715-bd13-9418ee6909d7")
 		)
 		(pin "14"
-			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5620")
+			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5622")
 		)
 		(pin "11"
-			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d0")
+			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d2")
 		)
 		(pin "10"
-			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d7828")
+			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d782a")
 		)
 		(pin "9"
-			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe3")
+			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe5")
 		)
 		(pin "1"
-			(uuid "227a0839-153f-4f96-8e08-003c3162f93c")
+			(uuid "227a0839-153f-4f96-8e08-003c3162f93e")
 		)
 		(pin "4"
-			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a6")
+			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a8")
 		)
 		(instances
 			(project ""
 				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "U2")
+					(reference "U9")
 					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 49.53 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89a4fa42-0465-4022-960a-1a3c03f4ca16")
-		(property "Reference" "C2"
-			(at 53.34 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 53.34 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.4952 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 49.53 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c20d8e9-4d43-419a-8610-3fa4f73f21ca")
-		)
-		(pin "2"
-			(uuid "811db430-7141-4ddd-9286-a7fb82545af1")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0dc4c5b-fa6b-4f91-9c58-b51973d54e2c")
-		(property "Reference" "#PWR01"
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c811bd8-6d57-48d2-b141-8fdf5e5d5b41")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc278ad0-cc1b-46b9-b2f0-98e6fe610b2a")
-		(property "Reference" "C1"
-			(at 54.61 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 54.61 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 51.7652 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "acef180b-f3d3-4961-a13e-7dfa6bae418c")
-		)
-		(pin "1"
-			(uuid "56834960-d32e-410c-9904-62482c90a55b")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC00")
-		(at 125.73 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1d9c718-9735-4195-95c3-d09b1710d588")
-		(property "Reference" "U2"
-			(at 125.7217 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC00"
-			(at 125.7217 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 125.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "quad 2-input NAND gate"
-			(at 125.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a500")
-		)
-		(pin "13"
-			(uuid "6a202f18-2b52-4303-9951-2a81d9979675")
-		)
-		(pin "2"
-			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e6")
-		)
-		(pin "3"
-			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b0")
-		)
-		(pin "6"
-			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9343")
-		)
-		(pin "5"
-			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c6d")
-		)
-		(pin "12"
-			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb947f")
-		)
-		(pin "7"
-			(uuid "65000b20-0418-4715-bd13-9418ee6909d5")
-		)
-		(pin "14"
-			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5620")
-		)
-		(pin "11"
-			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d0")
-		)
-		(pin "10"
-			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d7828")
-		)
-		(pin "9"
-			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe3")
-		)
-		(pin "1"
-			(uuid "227a0839-153f-4f96-8e08-003c3162f93c")
-		)
-		(pin "4"
-			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a6")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6773aaf-87b0-4949-9d91-28f2d5a59b09")
-		(property "Reference" "R2"
-			(at 52.07 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 52.07 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 47.752 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78b6728d-be3d-4f17-8146-f25ec20454d6")
-		)
-		(pin "1"
-			(uuid "0aac356f-e749-4f08-ab50-a0f420acbe6d")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS174")
-		(at 203.2 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc04bdfe-0821-481c-a39d-707d00d6f34b")
-		(property "Reference" "U6"
-			(at 205.3433 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS174"
-			(at 205.3433 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS174"
-			(at 203.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex D-type Flip-Flop, reset"
-			(at 203.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fbce11b5-e776-4c8a-8c44-4b741d6d1756")
-		)
-		(pin "4"
-			(uuid "4c03c308-0817-4146-89b3-975928d84a8f")
-		)
-		(pin "6"
-			(uuid "c06e37fd-9a76-40c5-b81f-184cc414c152")
-		)
-		(pin "11"
-			(uuid "9a9141e8-5a28-46d3-9b05-6bef983510c9")
-		)
-		(pin "13"
-			(uuid "d3d0a455-3246-424d-811f-fa173171cc8e")
-		)
-		(pin "12"
-			(uuid "ee6a0235-33ef-468c-81de-df23f6ddaa6f")
-		)
-		(pin "10"
-			(uuid "698ce7bb-6945-46dc-9dd8-999d4ebead0d")
-		)
-		(pin "7"
-			(uuid "79af90b8-874c-4070-9c18-f5c6bf5c6b55")
-		)
-		(pin "15"
-			(uuid "86a1c760-dc55-4a50-abfc-1bac495c8cb3")
-		)
-		(pin "5"
-			(uuid "0dfe1885-8d7f-4965-84ad-68118924ba67")
-		)
-		(pin "16"
-			(uuid "4219238e-16ea-48c9-8348-8dbe4ef092fb")
-		)
-		(pin "9"
-			(uuid "12637832-01cc-4d63-8e90-fc2573590eff")
-		)
-		(pin "14"
-			(uuid "4253d040-0fd8-4e3b-aad7-eb1d45c99e45")
-		)
-		(pin "8"
-			(uuid "8f666cf6-63e2-4ebc-b7c3-d2e95f65ec26")
-		)
-		(pin "1"
-			(uuid "17fbe0b2-ec52-4da2-8cc4-27fab69e8dd3")
-		)
-		(pin "2"
-			(uuid "338d1cab-5859-4e79-9bbc-013c52e34439")
-		)
-		(instances
-			(project ""
-				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Comparator:LM393")
-		(at 43.18 106.68 0)
-		(unit 1)
+		(at 55.88 156.21 180)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef9ddd35-df8b-4f22-b573-cfb092516cb4")
-		(property "Reference" "U1"
-			(at 43.18 96.52 0)
+		(uuid "609bf6e0-e7fc-460c-8f06-6bdfa1714a0d")
+		(property "Reference" "U4"
+			(at 53.34 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +2295,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 43.18 99.06 0)
+			(at 55.88 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +2303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 106.68 0)
+			(at 55.88 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +2312,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 43.18 106.68 0)
+			(at 55.88 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +2321,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 43.18 106.68 0)
+			(at 55.88 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,29 +2329,115 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "69415cce-f9c3-4635-89fc-19f53e57240d")
-		)
-		(pin "2"
-			(uuid "85dcd1bc-e2b5-4cbe-8703-19ad45c05ab8")
-		)
-		(pin "5"
-			(uuid "0037e3db-e956-4ea3-9fc6-c33a0ed2ba65")
-		)
-		(pin "6"
-			(uuid "d57dee8d-bfab-4d42-b860-5558317e718f")
-		)
-		(pin "3"
-			(uuid "150ce7ae-3b1b-4f85-963e-ef59b4c2f8fa")
-		)
 		(pin "7"
-			(uuid "bae9e4b6-ef92-4601-9950-c48b002e6cef")
-		)
-		(pin "1"
-			(uuid "f8c99549-5799-4726-a2bf-177d6c87f041")
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
 		)
 		(pin "8"
-			(uuid "b4fd5ad8-a267-4dde-bf5a-25697b6b8461")
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+		)
+		(pin "4"
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+		)
+		(pin "6"
+			(uuid "45d80215-c653-44c1-a897-539203621f83")
+		)
+		(pin "5"
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+		)
+		(pin "1"
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+		)
+		(pin "2"
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+		)
+		(pin "3"
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 78.74 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70b4fb1a-07b1-4c40-96b2-e50f793ee9a4")
+		(property "Reference" "U1"
+			(at 68.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 71.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 78.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 78.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+		)
+		(pin "8"
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+		)
+		(pin "4"
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+		)
+		(pin "6"
+			(uuid "45d80215-c653-44c1-a897-539203621f83")
+		)
+		(pin "5"
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+		)
+		(pin "1"
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+		)
+		(pin "2"
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+		)
+		(pin "3"
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
 		)
 		(instances
 			(project ""
@@ -3603,25 +2449,25 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC00")
-		(at 143.51 43.18 0)
+		(lib_id "Amplifier_Operational:LMC6482")
+		(at 92.71 182.88 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f6fe6653-bd1d-45bd-8705-2b8936c24283")
-		(property "Reference" "U2"
-			(at 143.5017 34.29 0)
+		(uuid "8d49097c-bdfb-44dd-a80b-8ec62eb3294d")
+		(property "Reference" "U5"
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74HC00"
-			(at 143.5017 36.83 0)
+		(property "Value" "LMC6482"
+			(at 92.71 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +2475,266 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 43.18 0)
+			(at 92.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
+			(at 92.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
+			(at 92.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+		)
+		(pin "6"
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+		)
+		(pin "5"
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+		)
+		(pin "1"
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+		)
+		(pin "2"
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+		)
+		(pin "3"
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+		)
+		(pin "8"
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+		)
+		(pin "7"
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMC6482")
+		(at 59.69 181.61 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fafd086-0fd9-4aa9-a7e4-28814598615f")
+		(property "Reference" "U3"
+			(at 59.436 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMC6482"
+			(at 61.214 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+		)
+		(pin "6"
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+		)
+		(pin "5"
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+		)
+		(pin "1"
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+		)
+		(pin "2"
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+		)
+		(pin "3"
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+		)
+		(pin "8"
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+		)
+		(pin "7"
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 93.98 156.21 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb51d1e7-98d2-4fa3-a22d-3179a9a95568")
+		(property "Reference" "U1"
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 93.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 93.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+		)
+		(pin "8"
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+		)
+		(pin "4"
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+		)
+		(pin "6"
+			(uuid "45d80215-c653-44c1-a897-539203621f83")
+		)
+		(pin "5"
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+		)
+		(pin "1"
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+		)
+		(pin "2"
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+		)
+		(pin "3"
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC00")
+		(at 31.75 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1d9c718-9735-4195-95c3-d09b1710d588")
+		(property "Reference" "U9"
+			(at 31.7417 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 31.7417 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +2743,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 143.51 43.18 0)
+			(at 31.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +2752,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 143.51 43.18 0)
+			(at 31.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,52 +2761,414 @@
 			)
 		)
 		(pin "8"
-			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a500")
+			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a503")
 		)
 		(pin "13"
-			(uuid "6a202f18-2b52-4303-9951-2a81d9979675")
+			(uuid "6a202f18-2b52-4303-9951-2a81d9979678")
 		)
 		(pin "2"
-			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e6")
+			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07e9")
 		)
 		(pin "3"
-			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b0")
+			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b3")
 		)
 		(pin "6"
-			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9343")
+			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9346")
 		)
 		(pin "5"
-			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c6d")
+			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c70")
 		)
 		(pin "12"
-			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb947f")
+			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb9482")
 		)
 		(pin "7"
-			(uuid "65000b20-0418-4715-bd13-9418ee6909d5")
+			(uuid "65000b20-0418-4715-bd13-9418ee6909d8")
 		)
 		(pin "14"
-			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5620")
+			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5623")
 		)
 		(pin "11"
-			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d0")
+			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d3")
 		)
 		(pin "10"
-			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d7828")
+			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d782b")
 		)
 		(pin "9"
-			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe3")
+			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe6")
 		)
 		(pin "1"
-			(uuid "227a0839-153f-4f96-8e08-003c3162f93c")
+			(uuid "227a0839-153f-4f96-8e08-003c3162f93f")
 		)
 		(pin "4"
-			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a6")
+			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8a9")
 		)
 		(instances
 			(project ""
 				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
-					(reference "U2")
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 104.14 156.21 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4440469-9585-48c0-a7e6-8b1240869b60")
+		(property "Reference" "U1"
+			(at 101.6 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 104.14 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+		)
+		(pin "8"
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+		)
+		(pin "4"
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+		)
+		(pin "6"
+			(uuid "45d80215-c653-44c1-a897-539203621f83")
+		)
+		(pin "5"
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+		)
+		(pin "1"
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+		)
+		(pin "2"
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+		)
+		(pin "3"
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMC6482")
+		(at 25.4 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e963606d-0a9e-4d5a-b0c1-a86a3e17e850")
+		(property "Reference" "U3"
+			(at 25.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMC6482"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+		)
+		(pin "6"
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+		)
+		(pin "5"
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+		)
+		(pin "1"
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+		)
+		(pin "2"
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+		)
+		(pin "3"
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+		)
+		(pin "8"
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+		)
+		(pin "7"
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC00")
+		(at 49.53 115.57 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6fe6653-bd1d-45bd-8705-2b8936c24283")
+		(property "Reference" "U9"
+			(at 49.5217 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 49.5217 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "bc1134e2-c64a-48c3-96c0-db6690e1a504")
+		)
+		(pin "13"
+			(uuid "6a202f18-2b52-4303-9951-2a81d9979679")
+		)
+		(pin "2"
+			(uuid "d5d297c1-89ff-4d84-a8d0-b78cac5a07ea")
+		)
+		(pin "3"
+			(uuid "34d7d93b-dede-4d32-9b69-304a1b6cc4b4")
+		)
+		(pin "6"
+			(uuid "3e26f11b-4fd1-4fce-938a-bd3c4a8c9347")
+		)
+		(pin "5"
+			(uuid "7e0231d9-ef97-46a8-9abe-8e98eb2d0c71")
+		)
+		(pin "12"
+			(uuid "c81c83fe-a62c-44c1-83b1-684dc9fb9483")
+		)
+		(pin "7"
+			(uuid "65000b20-0418-4715-bd13-9418ee6909d9")
+		)
+		(pin "14"
+			(uuid "4da9d6d9-5a3a-4993-bbcf-be20d97d5624")
+		)
+		(pin "11"
+			(uuid "f3d6329f-5e6b-4b18-b6f2-2bd782c854d4")
+		)
+		(pin "10"
+			(uuid "bc9d9dbb-0752-4e4e-b600-520ef49d782c")
+		)
+		(pin "9"
+			(uuid "3248b388-92e1-4ecc-974a-fbd53f16dfe7")
+		)
+		(pin "1"
+			(uuid "227a0839-153f-4f96-8e08-003c3162f940")
+		)
+		(pin "4"
+			(uuid "b0906785-bdb2-40d5-a9bf-7cdf7893e8aa")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U9")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 30.48 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe8e15f-054e-4da9-9a72-77da1bf4cb61")
+		(property "Reference" "U4"
+			(at 20.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 30.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 30.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+		)
+		(pin "8"
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+		)
+		(pin "4"
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+		)
+		(pin "6"
+			(uuid "45d80215-c653-44c1-a897-539203621f83")
+		)
+		(pin "5"
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+		)
+		(pin "1"
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+		)
+		(pin "2"
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+		)
+		(pin "3"
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U4")
+					(unit 1)
 				)
 			)
 		)
