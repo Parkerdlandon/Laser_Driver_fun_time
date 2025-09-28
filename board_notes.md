@@ -2,8 +2,7 @@
 
 ## Pump Diode
 
-- [L4 915/940/975 nm Fiber-
-Coupled Laser](https://resource.lumentum.com/s3fs-public/technical-library-items/6398l4l4i-ds-cl-ae.pdf?VersionId=null)
+- [L4 915/940/975 nm Fiber-Coupled Laser](https://resource.lumentum.com/s3fs-public/technical-library-items/6398l4l4i-ds-cl-ae.pdf?VersionId=null)
 
 ## Relevant ICs
 
