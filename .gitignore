@@ -1,0 +1,28 @@
+### KICAD IGNORE BLOCK
+# KiCad backup and temporary files
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl # Local project settings
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache # Footprint info cache
+~*.lck
+\#auto_saved_files#
+
+# Generated files
+*.net # Netlist files (exported from Eeschema)
+*.dsn # Autorouter files (exported from Pcbnew)
+*.ses # Autorouter session files
+*.xml # Exported BOM files (if you don't want to track them)
+*.csv # Exported BOM files (if you don't want to track them)
+
+# System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
