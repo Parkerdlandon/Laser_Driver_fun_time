@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "footprints")(type "KiCad")(uri "/home/matteo/projects/Laser_Driver_fun_time/custom-kicad-models/15FR050E/footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "/home/matteo/projects/Laser_Driver_fun_time/board-design/custom-footprints/15FR050E/footprints.pretty")(options "")(descr ""))
 )
