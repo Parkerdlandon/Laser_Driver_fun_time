@@ -337,6 +337,536 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "74xGxx:74AUC2G79"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AUC2G79"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual D Flip-Flop, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual D Flip-Flop D CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP* VSSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AUC2G79_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G79_2_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G79_3_0"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUC2G79_3_1"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74LVC1G332"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.112 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G332"
+				(at 6.096 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single OR 3-Input Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate OR triple LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G332_0_1"
+				(arc
+					(start -7.62 6.35)
+					(mid -5.321 0)
+					(end -7.62 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -6.858 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -6.858 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -5.334 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 0)
+					(mid 3.9978 -3.9978)
+					(end 0 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 6.35)
+					(mid 3.9978 3.9978)
+					(end 6.35 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy -7.62 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G332_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 6.35)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 6.35)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "74xx:74HC00"
 			(pin_names
 				(offset 1.016)
@@ -1838,6 +2368,813 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:MBR745"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MBR745"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "45V 7.5A Schottky Barrier Rectifier Diode, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBR745_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBR745_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LaserDriverComponents:TEC5V6AD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TEC5V6AD_1_1"
+				(rectangle
+					(start -8.89 -2.54)
+					(end 8.89 -25.4)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "TECV56A-D"
+					(at -3.302 -27.432 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "TEMPGD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "3VR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -10.16 0)
+					(length 2.54)
+					(name "TEMPSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -15.24 0)
+					(length 2.54)
+					(name "TECCRT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -17.78 0)
+					(length 2.54)
+					(name "VTEC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -20.32 0)
+					(length 2.54)
+					(name "CMIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -22.86 0)
+					(length 2.54)
+					(name "TEMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "VPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -12.7 180)
+					(length 2.54)
+					(name "TECNEG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "TECPOS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -17.78 180)
+					(length 2.54)
+					(name "RTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -20.32 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -22.86 180)
+					(length 2.54)
+					(name "SDNG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:IRF3205"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRF3205"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf3205.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single N-Channel HEXFET Power MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRF3205_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRF3205_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 16.51 144.78)
@@ -2106,6 +3443,116 @@
 		)
 	)
 	(symbol
+		(lib_id "LaserDriverComponents:TEC5V6AD")
+		(at 63.5 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "128f494d-1be4-4869-83be-89ee5db6a66e")
+		(property "Reference" "U7"
+			(at 63.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "444a0a82-1319-445f-b4d5-321621db28ae")
+		)
+		(pin "5"
+			(uuid "9e6eebf7-92bf-4303-9704-0e4bcb2b79cf")
+		)
+		(pin "8"
+			(uuid "83137e7b-32df-45fa-b560-da2d2af71d0f")
+		)
+		(pin "7"
+			(uuid "718cc02d-f8c2-4a21-9170-12f83de23ca8")
+		)
+		(pin "2"
+			(uuid "995a6180-b94f-4982-8285-84308271e5e5")
+		)
+		(pin "1"
+			(uuid "60ae093b-9bad-46b7-adaa-d4f18740df5e")
+		)
+		(pin "15"
+			(uuid "0f1654dd-b52f-4473-8697-213fc2b649b4")
+		)
+		(pin "11"
+			(uuid "9be7cbd1-fe41-4746-8949-a278bae6ed32")
+		)
+		(pin "9"
+			(uuid "04e6227d-477a-4e45-91ef-4cb6eb6c0ee4")
+		)
+		(pin "4"
+			(uuid "99a91a0b-88b0-4fb7-8459-60b8b8afb4ac")
+		)
+		(pin "3"
+			(uuid "2159897c-9d80-4971-8ac1-7a2e4c9481e7")
+		)
+		(pin "6"
+			(uuid "776d26fd-c2af-473c-82a2-8b130c497018")
+		)
+		(pin "10"
+			(uuid "d27187a7-3437-42cc-8ff1-3797c440f21b")
+		)
+		(pin "16"
+			(uuid "ba435d7e-1ebe-41b6-a7e5-49781debeed1")
+		)
+		(pin "12"
+			(uuid "b2a9bb0f-4b56-46a2-b924-8fd55db01492")
+		)
+		(pin "14"
+			(uuid "32189354-436c-4442-acfc-24152aaeeb24")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Comparator:LM393")
 		(at 45.72 156.21 90)
 		(unit 2)
@@ -2296,6 +3743,236 @@
 		)
 	)
 	(symbol
+		(lib_id "74xGxx:74AUC2G79")
+		(at 158.75 184.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2928790a-c4bc-4849-9cf5-e0f3aa664dbb")
+		(property "Reference" "U10"
+			(at 158.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AUC2G79"
+			(at 158.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual D Flip-Flop, Low-Voltage CMOS"
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b783433f-0cf3-4376-8c09-49b0cb8195c3")
+		)
+		(pin "8"
+			(uuid "b9775822-7609-4307-a6ae-338b1762a685")
+		)
+		(pin "4"
+			(uuid "f97e5b6d-103a-4c5b-8bbc-0b7f6868811b")
+		)
+		(pin "7"
+			(uuid "da2a70d3-70f5-4f1e-8e4e-9785983abf7e")
+		)
+		(pin "1"
+			(uuid "51e856d2-6ee0-4307-aafc-184c9faaa1d5")
+		)
+		(pin "6"
+			(uuid "7ede7482-f602-4e4b-85c1-c828add5bb5b")
+		)
+		(pin "3"
+			(uuid "83170b6b-c60d-45f2-ba64-c5fb6a804eac")
+		)
+		(pin "5"
+			(uuid "42675fd2-9b37-4c08-861d-a9f96a9239f4")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR745")
+		(at 88.9 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38d0be8c-6130-4d50-91af-d97c0a0b36cf")
+		(property "Reference" "D5"
+			(at 88.5825 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR60100CT"
+			(at 88.5825 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 88.9 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 100A Schottky Barrier Rectifier Diode, TO-220"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12e73284-9bef-4065-9f75-0c725d2b39aa")
+		)
+		(pin "1"
+			(uuid "23647bdc-9553-4ff9-8223-3977afd5ed53")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF3205")
+		(at 102.87 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4241aac8-6c3d-4599-ad2d-777f2e55aa8f")
+		(property "Reference" "Q1"
+			(at 109.22 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRL3302"
+			(at 109.22 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 107.95 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf3205.pdf"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6364b12d-1fa1-4d64-974e-7b5071126ef4")
+		)
+		(pin "1"
+			(uuid "f4112df3-e59d-4659-90af-e014c60a2ff4")
+		)
+		(pin "2"
+			(uuid "dfbf29a5-97e9-4f13-8dca-0d67af9fb19c")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LMC6482")
 		(at 107.95 181.61 0)
 		(unit 3)
@@ -2350,28 +4027,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28f")
 		)
 		(pin "6"
-			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783c")
 		)
 		(pin "5"
-			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa042")
 		)
 		(pin "1"
-			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9344")
 		)
 		(pin "2"
-			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be384")
 		)
 		(pin "3"
-			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354431")
 		)
 		(pin "8"
-			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801391")
 		)
 		(pin "7"
-			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc422")
 		)
 		(instances
 			(project ""
@@ -2489,6 +4166,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:MBR745")
+		(at 88.9 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5530df7a-71fe-41c0-b2a2-4e69ae76cbbc")
+		(property "Reference" "D4"
+			(at 88.5825 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR60100CT"
+			(at 88.5825 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 88.9 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 100A Schottky Barrier Rectifier Diode, TO-220"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f05351e-ee6b-4b46-9f4d-58891965783d")
+		)
+		(pin "1"
+			(uuid "86cccb8e-f8af-4cfb-860e-85dc29a59333")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LMC6482")
 		(at 73.66 182.88 0)
 		(unit 1)
@@ -2542,28 +4287,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba290")
 		)
 		(pin "6"
-			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783d")
 		)
 		(pin "5"
-			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa043")
 		)
 		(pin "1"
-			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9345")
 		)
 		(pin "2"
-			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be385")
 		)
 		(pin "3"
-			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354432")
 		)
 		(pin "8"
-			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801392")
 		)
 		(pin "7"
-			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc423")
 		)
 		(instances
 			(project ""
@@ -2732,28 +4477,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977263")
 		)
 		(pin "8"
-			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec224")
 		)
 		(pin "4"
-			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec6")
 		)
 		(pin "6"
-			(uuid "45d80215-c653-44c1-a897-539203621f83")
+			(uuid "45d80215-c653-44c1-a897-539203621f84")
 		)
 		(pin "5"
-			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f4")
 		)
 		(pin "1"
-			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe58")
 		)
 		(pin "2"
-			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47561")
 		)
 		(pin "3"
-			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9ad0")
 		)
 		(instances
 			(project ""
@@ -2818,28 +4563,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977264")
 		)
 		(pin "8"
-			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec225")
 		)
 		(pin "4"
-			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec7")
 		)
 		(pin "6"
-			(uuid "45d80215-c653-44c1-a897-539203621f83")
+			(uuid "45d80215-c653-44c1-a897-539203621f85")
 		)
 		(pin "5"
-			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f5")
 		)
 		(pin "1"
-			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe59")
 		)
 		(pin "2"
-			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47562")
 		)
 		(pin "3"
-			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9ad1")
 		)
 		(instances
 			(project ""
@@ -2906,15 +4651,169 @@
 			)
 		)
 		(pin "1"
-			(uuid "97541d72-f831-45bd-997e-bf8ee345e9ff")
+			(uuid "97541d72-f831-45bd-997e-bf8ee345ea00")
 		)
 		(pin "2"
-			(uuid "c934a594-d17d-46eb-925d-8943182a3698")
+			(uuid "c934a594-d17d-46eb-925d-8943182a3699")
 		)
 		(instances
 			(project ""
 				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR745")
+		(at 88.9 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86203bde-1d79-49a6-95ae-e0564a70e0e0")
+		(property "Reference" "D7"
+			(at 88.5825 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR60100CT"
+			(at 88.5825 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 88.9 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 100A Schottky Barrier Rectifier Diode, TO-220"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a2b96b1-95ba-4982-97da-5a60419a8218")
+		)
+		(pin "1"
+			(uuid "bc9b5b44-7a52-40f7-8e0e-92d45c3c7943")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G79")
+		(at 130.81 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b4cda01-c5bb-437a-93fd-e1d41aa7e071")
+		(property "Reference" "U10"
+			(at 130.81 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AUC2G79"
+			(at 130.81 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 130.81 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual D Flip-Flop, Low-Voltage CMOS"
+			(at 130.81 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b783433f-0cf3-4376-8c09-49b0cb8195c3")
+		)
+		(pin "8"
+			(uuid "b9775822-7609-4307-a6ae-338b1762a685")
+		)
+		(pin "4"
+			(uuid "f97e5b6d-103a-4c5b-8bbc-0b7f6868811b")
+		)
+		(pin "7"
+			(uuid "da2a70d3-70f5-4f1e-8e4e-9785983abf7e")
+		)
+		(pin "1"
+			(uuid "51e856d2-6ee0-4307-aafc-184c9faaa1d5")
+		)
+		(pin "6"
+			(uuid "7ede7482-f602-4e4b-85c1-c828add5bb5b")
+		)
+		(pin "3"
+			(uuid "83170b6b-c60d-45f2-ba64-c5fb6a804eac")
+		)
+		(pin "5"
+			(uuid "42675fd2-9b37-4c08-861d-a9f96a9239f4")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2974,34 +4873,188 @@
 			)
 		)
 		(pin "4"
-			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba291")
 		)
 		(pin "6"
-			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783e")
 		)
 		(pin "5"
-			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa044")
 		)
 		(pin "1"
-			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9346")
 		)
 		(pin "2"
-			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be386")
 		)
 		(pin "3"
-			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354433")
 		)
 		(pin "8"
-			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801393")
 		)
 		(pin "7"
-			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc424")
 		)
 		(instances
 			(project ""
 				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
 					(reference "U5")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR745")
+		(at 88.9 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d7ed9f-e030-4b00-97fd-193b57eae0bb")
+		(property "Reference" "D6"
+			(at 88.5825 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR60100CT"
+			(at 88.5825 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 88.9 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 100A Schottky Barrier Rectifier Diode, TO-220"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a2ec026-4875-4864-a5b4-245fda963325")
+		)
+		(pin "1"
+			(uuid "bf7bbdef-1149-4d34-b6db-2a43d421fdf4")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G79")
+		(at 144.78 163.83 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f03306f-2b2b-4150-bcba-b51bb362849f")
+		(property "Reference" "U10"
+			(at 144.78 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AUC2G79"
+			(at 144.78 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 144.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual D Flip-Flop, Low-Voltage CMOS"
+			(at 144.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b783433f-0cf3-4376-8c09-49b0cb8195c3")
+		)
+		(pin "8"
+			(uuid "b9775822-7609-4307-a6ae-338b1762a685")
+		)
+		(pin "4"
+			(uuid "f97e5b6d-103a-4c5b-8bbc-0b7f6868811b")
+		)
+		(pin "7"
+			(uuid "da2a70d3-70f5-4f1e-8e4e-9785983abf7e")
+		)
+		(pin "1"
+			(uuid "51e856d2-6ee0-4307-aafc-184c9faaa1d5")
+		)
+		(pin "6"
+			(uuid "7ede7482-f602-4e4b-85c1-c828add5bb5b")
+		)
+		(pin "3"
+			(uuid "83170b6b-c60d-45f2-ba64-c5fb6a804eac")
+		)
+		(pin "5"
+			(uuid "42675fd2-9b37-4c08-861d-a9f96a9239f4")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U10")
+					(unit 3)
 				)
 			)
 		)
@@ -3061,28 +5114,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba292")
 		)
 		(pin "6"
-			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783f")
 		)
 		(pin "5"
-			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa045")
 		)
 		(pin "1"
-			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9347")
 		)
 		(pin "2"
-			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be387")
 		)
 		(pin "3"
-			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354434")
 		)
 		(pin "8"
-			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801394")
 		)
 		(pin "7"
-			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc425")
 		)
 		(instances
 			(project ""
@@ -3147,28 +5200,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977265")
 		)
 		(pin "8"
-			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec226")
 		)
 		(pin "4"
-			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec8")
 		)
 		(pin "6"
-			(uuid "45d80215-c653-44c1-a897-539203621f83")
+			(uuid "45d80215-c653-44c1-a897-539203621f86")
 		)
 		(pin "5"
-			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f6")
 		)
 		(pin "1"
-			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe5a")
 		)
 		(pin "2"
-			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47563")
 		)
 		(pin "3"
-			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9ad2")
 		)
 		(instances
 			(project ""
@@ -3284,6 +5337,86 @@
 		)
 	)
 	(symbol
+		(lib_id "74xGxx:74LVC1G332")
+		(at 114.3 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2804307-3aab-4db1-a6d9-58d2ab92c1b5")
+		(property "Reference" "U11"
+			(at 128.27 109.1498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G332"
+			(at 128.27 111.6898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single OR 3-Input Gate, Low-Voltage CMOS"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "174ebeb8-7248-4b6a-b743-d43ce2a4cbb7")
+		)
+		(pin "3"
+			(uuid "5c0d06e6-96b7-4c1d-85e9-4c5dcca6d69d")
+		)
+		(pin "4"
+			(uuid "5c45872e-6c55-4d78-bdfa-ad526f7b3287")
+		)
+		(pin "2"
+			(uuid "a721ff46-f451-457a-baf9-bcd86be694a0")
+		)
+		(pin "5"
+			(uuid "cbdfa06b-51b9-4355-9955-c7678ac3be9d")
+		)
+		(pin "6"
+			(uuid "58604f00-4cea-413d-a384-01dc15591f84")
+		)
+		(instances
+			(project ""
+				(path "/4cdfe5ad-52c6-4407-9638-f2feb0b16a90"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Comparator:LM393")
 		(at 104.14 156.21 180)
 		(unit 3)
@@ -3337,28 +5470,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977266")
 		)
 		(pin "8"
-			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec227")
 		)
 		(pin "4"
-			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+			(uuid "8665eace-1fda-452f-aa3c-016dac510ec9")
 		)
 		(pin "6"
-			(uuid "45d80215-c653-44c1-a897-539203621f83")
+			(uuid "45d80215-c653-44c1-a897-539203621f87")
 		)
 		(pin "5"
-			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f7")
 		)
 		(pin "1"
-			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe5b")
 		)
 		(pin "2"
-			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47564")
 		)
 		(pin "3"
-			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9ad3")
 		)
 		(instances
 			(project ""
@@ -3423,28 +5556,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba28e")
+			(uuid "6a396c1d-2859-43a8-a90e-17d79d3ba293")
 		)
 		(pin "6"
-			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b783b")
+			(uuid "ea4f4b37-bd97-4c89-b8f6-7d79143b7840")
 		)
 		(pin "5"
-			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa041")
+			(uuid "bf181df0-7fd2-4229-8e25-b050c7aaa046")
 		)
 		(pin "1"
-			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9343")
+			(uuid "681ad133-e6b9-4e6c-8599-5e20d8bf9348")
 		)
 		(pin "2"
-			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be383")
+			(uuid "31b63ee1-b882-433f-ac0e-7a6cf02be388")
 		)
 		(pin "3"
-			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354430")
+			(uuid "1c8b3540-8995-4dfd-896d-ae7f3b354435")
 		)
 		(pin "8"
-			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801390")
+			(uuid "c8f44f8d-2d4c-4028-8978-cfa549801395")
 		)
 		(pin "7"
-			(uuid "02781cdc-c8f2-498f-afda-3a37276fc421")
+			(uuid "02781cdc-c8f2-498f-afda-3a37276fc426")
 		)
 		(instances
 			(project ""
@@ -3613,28 +5746,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977262")
+			(uuid "c7bd58b8-cbbe-4da2-945f-f47323977267")
 		)
 		(pin "8"
-			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec223")
+			(uuid "cd64f274-cbf7-4c8b-bfea-616eb49ec228")
 		)
 		(pin "4"
-			(uuid "8665eace-1fda-452f-aa3c-016dac510ec5")
+			(uuid "8665eace-1fda-452f-aa3c-016dac510eca")
 		)
 		(pin "6"
-			(uuid "45d80215-c653-44c1-a897-539203621f83")
+			(uuid "45d80215-c653-44c1-a897-539203621f88")
 		)
 		(pin "5"
-			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f3")
+			(uuid "05c50a8d-dcc3-4f88-b5e0-81abee9405f8")
 		)
 		(pin "1"
-			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe57")
+			(uuid "14c00403-4ae6-4b1a-8be5-8d0bfecdfe5c")
 		)
 		(pin "2"
-			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47560")
+			(uuid "dcba0e52-3cb6-44b1-af99-7cf9f6e47565")
 		)
 		(pin "3"
-			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9acf")
+			(uuid "70f73d4a-7489-4d82-bc2c-0d1f039e9ad4")
 		)
 		(instances
 			(project ""
